@@ -1,0 +1,96 @@
+body 
+  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    background-image: url(./assets/images/agency_img.jpg);
+  }
+  .Beauty{
+    width: 400px;
+    margin-top: 10px;
+  }
+  .construction{
+    width: 400px;
+    margin-top: 10px;
+  }
+  
+
+@media (min-width:500px)
+  {  
+  .logo
+    {
+    width: 200px;   
+    }
+    .title{
+      font-size: 80px;
+    }
+    .Beauty{
+      width: 300px;
+    }
+    .construction{
+     width: 300px;
+    }
+    .const{
+      display: inline-block;
+    }
+    .beau{
+      display: inline-block;
+      
+    }
+
+   
+  }
+  @media (min-width:700px) 
+  {
+    .img{
+      display: flex;
+    }
+    .beau{
+      flex: 1;
+      
+    }
+    .const{
+      flex: 1;
+    }
+    .Beauty{
+      float: left;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .construction{
+      float: left;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+.Creative{
+  color: darkblue;
+}
+
+@media (min-width:500px) and (max-width:700px){
+  .Beauty{
+    float: left;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .construction{
+    float: left;
+   width: 400px;
+   margin-left:20px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   
+  }
+ 
+ }
+ footer{
+  clear: both;
+  color: darkblue;
+  text-align: right;
+  margin-top: 100px;
+ }
